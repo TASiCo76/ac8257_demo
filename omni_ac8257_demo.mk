@@ -22,6 +22,20 @@ PRODUCT_BRAND := alps
 PRODUCT_MODEL := UJC201_64
 PRODUCT_MANUFACTURER := alps
 
+# enable stock zip packages flash
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.treble.enabled=true \
+    persist.sys.usb.config=mtp,adb \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+    ro.allow.mock.location=1 \
+   ro.debuggable=1 \
+   persist.sys.isUsbOtgEnabled=true \
+   ro.sys.usb.mtp.whql.enable=0 \
+   ro.sys.usb.storage.type=mtp
+
 PRODUCT_GMS_CLIENTID_BASE := android-alps
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
