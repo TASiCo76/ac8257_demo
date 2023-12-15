@@ -141,3 +141,5 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 
 # Show build time on the splash screen
 TW_DEVICE_VERSION=$(shell date '+%Y%m%d')
+# Show build time on the splash screen
+TW_DEVICE_VERSION=$(shell date '+%Y%m%d')
