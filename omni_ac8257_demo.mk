@@ -17,7 +17,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 #$(call inherit-product, device/alps/ac8257_demo/device.mk)
 
 PRODUCT_DEVICE := ac8257_demo
-PRODUCT_NAME := full_UJC201_64
+PRODUCT_NAME := omni_ac8257_demo
 PRODUCT_BRAND := alps
 PRODUCT_MODEL := UJC201_64
 PRODUCT_MANUFACTURER := alps
