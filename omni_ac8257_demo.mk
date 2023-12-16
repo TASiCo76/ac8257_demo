@@ -17,7 +17,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 #$(call inherit-product, device/alps/ac8257_demo/device.mk)
 
 PRODUCT_DEVICE := ac8257_demo
-PRODUCT_NAME := omni_ac8257_demo
+PRODUCT_NAME := full_UJC201_64
 PRODUCT_BRAND := alps
 PRODUCT_MODEL := UJC201_64
 PRODUCT_MANUFACTURER := alps
@@ -27,4 +27,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-alps
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="UJC201-V1.0.66R3-231020_0857"
 
-BUILD_FINGERPRINT := alps/full_UJC201_64/ac8257_demo:9/SP1A.210812.016.A1/663:userdebug/test-keys
+BUILD_FINGERPRINT := alps/full_evb3561sv_w_65_m0/evb3561sv_w_65_m0:6.0/MRA58K/1697763469:userdebug/test-keys
