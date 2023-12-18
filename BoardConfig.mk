@@ -143,4 +143,5 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_MTP_DEVICE := /dev/mtp_usb
 
 # Show build time on the splash screen
-TW_DEVICE_VERSION=$(shell date '+%Y%m%d')
+#TW_DEVICE_VERSION=$(shell date '+%Y%m%d')
+TW_DEVICE_VERSION=for_UJC201_by_TASiCo
