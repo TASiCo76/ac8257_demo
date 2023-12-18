@@ -113,11 +113,12 @@ PLATFORM_VERSION := 16.1.0
 # TWRP Configuration
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 DEVICE_RESOLUTION := 600x1024
-TW_IGNORE_MAJOR_AXIS_0 := true
 TW_THEME := landscape_hdpi
 TW_ROTATION := 90
+#TW_IGNORE_MAJOR_AXIS_0 := true
 #RECOVERY_TOUCHSCREEN_SWAP_XY := true
-#RECOVERY_TOUCHSCREEN_FLIP_Y := true
+RECOVERY_TOUCHSCREEN_FLIP_X := true
+RECOVERY_TOUCHSCREEN_FLIP_Y := true
 BOARD_HAS_FLIPPED_SCREEN := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_USE_TOOLBOX := true
@@ -139,6 +140,7 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_NO_SCREEN_TIMEOUT := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
+TW_MTP_DEVICE := /dev/mtp_usb
 
 # Show build time on the splash screen
 TW_DEVICE_VERSION=$(shell date '+%Y%m%d')
