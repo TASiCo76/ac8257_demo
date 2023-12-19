@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MountPoint>
+	<Udisk MountPoint="udisk1" HubPrefix="dev" Port="Port1" >
+	</Udisk>
+	<Udisk MountPoint="udisk2" HubPrefix="dev" Port="Port2" >
+	</Udisk>
+	<Udisk MountPoint="udisk2" HubPrefix="dev" Port="Port3\USB2.0" >
+	</Udisk>
+	<SDcard MountPoint="ext_sdcard1" Slot="Slot1" >
+	</SDcard>
+</MountPoint>
