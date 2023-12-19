@@ -75,6 +75,7 @@ subsystem sound
 /dev/dri/*                0666   root       graphics
 
 # these should not be world writable
+/dev/touch                0660   root       system
 /dev/diag                 0660   radio      radio
 /dev/diag_arm9            0660   radio      radio
 /dev/ttyMSM0              0600   bluetooth  bluetooth
